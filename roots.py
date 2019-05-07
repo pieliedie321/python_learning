@@ -5,8 +5,8 @@ c = float(input('Input c = '))
 D = b*b - 4*a*c
 if D > 0:
     print('D = ', D, '. D > 0, 2 roots')
-    x1 = (-b + math.sqrt(b*b - 4*a*c)) / 2*a
-    x2 = (-b - math.sqrt(b*b - 4*a*c)) / 2*a
+    x1 = float((-b + math.sqrt(b*b - 4*a*c)) / 2*a)
+    x2 = float((-b - math.sqrt(b*b - 4*a*c)) / 2*a)
     print('Roots: ', x1, 'and ', x2)
 elif D == 0:
     print('D = 0, 1 root')
