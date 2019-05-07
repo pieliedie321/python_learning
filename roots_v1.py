@@ -1,6 +1,5 @@
 import math
-cic = True
-while cic = True:
+while True:
     a = float(input('Input a = '))
     b = float(input('Input b = '))
     c = float(input('Input c = '))
@@ -20,13 +19,12 @@ while cic = True:
         print('Root: ', x)
     elif D < 0:
         print('D = 0, no roots')
-    cont = input('Got another equation? (y/n)')
+    """cont = input('Got another equation? (y/n)')
     if cont == 'y' or cont == 'Y':
         print('Alright, type another one')
     elif cont == 'n' or cont == 'N':
         print('See ya')
-        cic = False
-    else:
+            else:
         print("Unknown command. Back to equation's question (y/n)")
-        continue
+        continue"""
 input()
