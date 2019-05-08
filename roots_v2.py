@@ -11,7 +11,6 @@ while cicle == 1:
         D_up1 = -b + math.sqrt(D)
         D_up2 = -b - math.sqrt(D)
         D_down = 2*a
-        print(D_up1, D_up2, D_down)
         x1 = float(D_up1 / D_down)
         x2 = float(D_up2 / D_down)
         print('Roots: ', x1, 'and ', x2)
