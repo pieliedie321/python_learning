@@ -13,4 +13,5 @@ print('List of all codes are - ', L)
 a = sum(L)
 print('Sum = ', a)
 
+
 input('Press any key to continue')
