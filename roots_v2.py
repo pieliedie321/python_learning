@@ -1,5 +1,6 @@
 import math
-print('This is the simple calculator for equations like ax^2 + bx + c = 0. You need to imput a, b and c')
+print('This is the simple calculator for equations like ax^2 + bx + c = 0.')
+print('You need to imput a, b and c')
 cicle = 1
 while cicle == 1:
     a = float(input('Input a = '))
