@@ -30,4 +30,4 @@ while cicle == 1:
     else:
         print("Unknown command. Back to equation's question (y/n)")
         continue
-input()
+input('Press any key to continue')
