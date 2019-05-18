@@ -22,7 +22,7 @@ while cicle == 1:
 
 #           New iteration of cicle
 
-    c = input("Wanna input some more stuff? y/n")
+    c = input("Wanna input some more stuff? y/n ")
     if c == 'y' or c == 'Y':
          print('Lets try in again')
     elif c == 'n' or c == 'N':
